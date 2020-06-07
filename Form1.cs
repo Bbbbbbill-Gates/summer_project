@@ -729,7 +729,6 @@ namespace FrontBoardVersion0
             img = pictureBox1.BackgroundImage;
             pictureBox1.BackgroundImage = null;
             img.Dispose();
-            MessageBox.Show("test");
 
             this.bmp.Dispose();
             this.bmp = null;
