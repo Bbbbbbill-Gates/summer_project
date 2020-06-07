@@ -721,7 +721,6 @@ namespace FrontBoardVersion0
                 toolbox[i].Dispose();
             }
 
-
             pictureBox1.Image = Image.FromHbitmap(this.bmp.GetHbitmap()); 
             Image img = pictureBox1.Image; 
             pictureBox1.Image = null; 
